@@ -20,9 +20,11 @@ import { faStackOverflow, faGithub, faMedium, faLinkedin, faLinkedinIn, faMailch
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule {
   constructor(private library: FaIconLibrary) {
     library.addIcons(faSquare, faCheckSquare, farSquare, farCheckSquare, faStackOverflow, faGithub, faMedium, 
       faLinkedin, faLinkedinIn, faMailchimp);
   }
+  
 }
