@@ -139,10 +139,11 @@
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
+        margin-bottom: 50px;
         .about-me {
             margin-right: 20px;
         }
-        .about-me, .education {
+        .about-me, .education, .experience{
             display: flex;
             flex-direction: column;
             width: 50%;
@@ -196,6 +197,13 @@
                         justify-content: center;
                     }
                 }
+            }
+        }
+
+        .experience {
+            width: 100% !important;
+            .section-experience {
+                width: 30% !important;
             }
         }
     }

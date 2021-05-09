@@ -16,7 +16,10 @@ export class CvCommonComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    //this.commonList = data;
+    this.getExperienceList();
   }
 
+  getExperienceList() {
+    this.commonList = data;
+  }
 }
