@@ -40,18 +40,34 @@
     <div class="content">
         <div class="about-me">
             <div>
-                <img src="assets/img/content/dots-bg-light.svg" alt="content" />
-                <h2>About Me</h2>
+                <img class="aboutme-img" src="assets/img/content/dots-bg-light.svg" alt="content" />
+                <h2 class="aboutme-title">About Me</h2>
             </div>
             <div class="content-detail">
                 <div class="icon">
                     <fa-icon class="common-icon content-icon" [icon]="faHome"></fa-icon>
                 </div>
                 <div class="section-content">
-                    <p>I'm a front-end developer in Ankara, who turns designs into a product.</p>
+                    <p class="paragraph">I'm a front-end developer in Ankara, who turns designs into a product.</p>
                     <div class="section-btn">
                         <button class="btn btn-default">Download CV</button>
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="education">
+            <div>
+                <img class="education-img" src="assets/img/content/dots-bg-light.svg" alt="content" />
+                <h2 class="education-title">Education</h2>
+            </div>
+            <div class="content-detail">
+                <div class="icon">
+                    <fa-icon class="common-icon content-icon" [icon]="faUniversity"></fa-icon>
+                </div>
+                <div class="section-content">
+                    <p class="paragraph university-year">2012 - 2017</p>
+                    <p class="paragraph">Başkent University - Management Information Systems</p>
                 </div>
             </div>
         </div>

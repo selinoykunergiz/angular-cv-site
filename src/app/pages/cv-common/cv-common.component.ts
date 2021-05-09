@@ -1,5 +1,5 @@
 import { AfterViewChecked, Component, ElementRef, OnInit, ViewChild} from '@angular/core';
-import { faHome } from '@fortawesome/free-solid-svg-icons';              
+import { faHome, faUniversity } from '@fortawesome/free-solid-svg-icons';              
 import data from '../../../assets/json/data.json';
 
 @Component({
@@ -11,6 +11,7 @@ export class CvCommonComponent implements OnInit {
 
   commonList: any;
   faHome = faHome;
+  faUniversity = faUniversity;
   
   constructor() { }
 
