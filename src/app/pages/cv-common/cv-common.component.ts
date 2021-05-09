@@ -1,4 +1,6 @@
 import { AfterViewChecked, Component, ElementRef, OnInit, ViewChild} from '@angular/core';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';              
 import data from '../../../assets/json/data.json';
 
 @Component({
