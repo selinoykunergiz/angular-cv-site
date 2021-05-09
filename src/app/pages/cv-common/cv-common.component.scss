@@ -16,11 +16,11 @@
                 backface-visibility: hidden;
             }
             .header1 {
-                transform: translate3d(-27.93px, 7.38938px, 0px);
+                // transform: translate3d(-27.93px, 7.38938px, 0px);
                 position: relative;
                 display: block;
                 left: -1%;
-                top: 10%;
+                top: 60px;
             }
             .other-img {
                 position: absolute;
@@ -85,8 +85,15 @@
                 display: flex;
                 align-items: center;
                 height: 100%;
+                flex-direction: column;
                 .section-img {
-                    //
+                    width: 20%;
+                    img {
+                        width: 100%;
+                        width: 100%;
+                        border-radius: 50%;
+                        border: 5px solid #FFD15C;
+                    }
                 }
                 .section-name {
                     h1 {
