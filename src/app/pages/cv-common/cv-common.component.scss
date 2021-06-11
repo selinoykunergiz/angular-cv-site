@@ -147,25 +147,40 @@
             display: flex;
             flex-direction: column;
             width: 50%;
+            .ab-title, .education-header  {
+                margin-bottom: 30px;
+            }
             .aboutme-img {
+                content: "";
+                display: block;
+                height: 37px;
                 position: absolute;
-                left: 265px;
+                width: 37px;
             }
             .education-img {
+                content: "";
+                display: block;
+                height: 37px;
                 position: absolute;
-                right: 265px !important;
+                width: 37px;
             }
-            .aboutme-title, .education-title {
+            .education-title {
+                width: 100%;
+                display: flex;
+                justify-content: flex-end;
+            }
+            .aboutme-title , .education-title{
                 margin: 0;
                 position: relative;
                 font-size: 30px;
                 color: white;
                 color: white;
                 top: 14px;
-                left: 1px;
+                padding:0 20px;
             }
-            .education-title {
-                text-align: end;
+            .education-header {
+                display: flex;
+                justify-content: flex-end;
             }
             .content-detail {
                 display: flex;
@@ -173,7 +188,6 @@
                 width: 100%;
                 justify-content: flex-start;
                 align-items: center;
-                margin-top: 30px;
                 .section-content {
                     border: 1px solid#302f4e;
                     background:#302f4e;
@@ -181,8 +195,7 @@
                     border-radius: 20px;
                     display: flex;
                     flex-direction: column;
-                    width: 100%;
-                    height: 90px;
+                    flex: 1;
                     .paragraph {
                         margin: 0;
                         color: white;
@@ -202,8 +215,64 @@
 
         .experience {
             width: 100% !important;
-            .section-experience {
-                width: 30% !important;
+            .exp-header {
+                margin-bottom: 30px;
+            }
+            .exp-all {
+                width: 100% !important;
+                display: flex;
+                .exp-content {
+                    width: 100% !important;
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    .section-experience {
+                        border-radius: 20px;
+                        flex-direction: row;
+                        width: 25% !important;
+                        margin-bottom: 20px; 
+                        padding: 24px; 
+                        background-color: rgb(108, 108, 229) !important;
+                    ul {
+                        list-style: none;
+                        padding: 0;
+                        margin: 0;
+                        li {
+                            .section-exp {
+                                display: flex;
+                                justify-content: space-between;
+                                width: 100%;
+                                .exp-title {
+                                    margin: 0;
+                                    font-size: 17px;
+                                    width: 80%;
+                                    color: white;
+
+                                }
+                                h6 {
+                                    margin: 0;
+                                    width: 50px;
+                                    background-color: rgb(249, 215, 76);
+                                    border-radius: 50%;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    text-align: center;
+                                    height: 50px;
+                                    color: white;
+                                    font-weight: bold;
+                                }
+                            }
+                            .exp-paragraph {
+                                font-size: 13px;
+                                line-height: 1.5;
+                                color: white;
+                            }
+                        }
+                    }
+                    }
+                }
             }
         }
     }

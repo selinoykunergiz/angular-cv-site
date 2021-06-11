@@ -39,7 +39,7 @@
 
     <div class="content">
         <div class="about-me">
-            <div>
+            <div class="ab-title">
                 <img class="aboutme-img" src="assets/img/content/dots-bg-light.svg" alt="content" />
                 <h2 class="aboutme-title">About Me</h2>
             </div>
@@ -57,7 +57,7 @@
         </div>
 
         <div class="education">
-            <div>
+            <div class="education-header">
                 <img class="education-img" src="assets/img/content/dots-bg-light.svg" alt="content" />
                 <h2 class="education-title">Education</h2>
             </div>
@@ -75,18 +75,24 @@
 
     <div class="content">
         <div class="experience">
-            <div>
+            <div class="exp-header">
                 <img class="aboutme-img" src="assets/img/content/dots-bg-light.svg" alt="content" />
                 <h2 class="aboutme-title">Experiences</h2>
             </div>
-            <div class="content-detail">
-                <div class="icon">
-                    <fa-icon class="common-icon content-icon" [icon]="faHome"></fa-icon>
-                </div>
-                <div class="section-content section-experience">
-                    <p class="paragraph">I'm a front-end developer in Ankara, who turns designs into a product.</p>
-                    <div class="section-btn">
-                        <button class="btn btn-default">Download CV</button>
+            <div class="exp-all">
+                <div class="exp-content">
+                    <div class="section-content section-experience" *ngFor="let experience of experienceList">
+                        <ul>
+                            <li>
+                                <div class="section-exp">
+                                    <h3 class="exp-title">{{experience.companyname}}</h3>
+                                    <h6>{{experience.totaltime}}</h6>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="exp-paragraph">{{experience.description}}</p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>

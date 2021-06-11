@@ -1,6 +1,7 @@
-import { AfterViewChecked, Component, ElementRef, OnInit, ViewChild} from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 import { faHome, faUniversity } from '@fortawesome/free-solid-svg-icons';              
 import data from '../../../assets/json/data.json';
+import works from '../../../assets/json/works.json';
 
 @Component({
   selector: 'app-cv-common',
@@ -9,17 +10,29 @@ import data from '../../../assets/json/data.json';
 })
 export class CvCommonComponent implements OnInit {
 
-  commonList: any;
+  experienceList: any;
+  worksList: any;
+
   faHome = faHome;
   faUniversity = faUniversity;
   
   constructor() { }
 
   ngOnInit(): void {
+    this.init();
+  }
+
+  init() {
     this.getExperienceList();
+    this.getWorkList();
   }
 
   getExperienceList() {
-    this.commonList = data;
+    this.experienceList = data;
+  }
+
+  getWorkList() {
+    this.worksList = works;
+    debugger
   }
 }
