@@ -1,7 +1,32 @@
 @import './assets/cv-style/button.scss';
+@import './assets/cv-style/variable.scss';
 
 body {
     margin: 0;
     background: #353353;
     font-family: 'Rubik', sans-serif;
+}
+
+$breakPoints: (5, 10, 15, 18, 20, 25, 30, 50, 100);
+$sides: (
+    t: 'top',
+    r: 'right',
+    b: 'bottom',
+    l: 'left',
+);
+@each $size in $breakPoints {
+    @each $flag, $side in $sides {
+        .m#{$flag}-#{$size} {
+            margin-#{$side}: $size + px !important;
+        }
+        .p#{$flag}-#{$size} {
+            padding-#{$side}: $size + px !important;
+        }
+        .p-#{$size} {
+            padding: $size + px !important;
+        }
+        .m-#{$size} {
+            margin: $size + px !important;
+        }
+    }
 }

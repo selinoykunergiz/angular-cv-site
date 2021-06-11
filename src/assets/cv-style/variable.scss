@@ -1,0 +1,12 @@
+$mobile: "screen and (max-width: 768px)";
+$tablet: "screen and (min-width: 768px) and (max-width: 992px)";
+$web: "screen and (min-width: 1200px)";
+
+@function toRem($value) {
+  $remValue: ($value / 16) + rem;
+  @return $remValue;
+}
+
+// .example{
+//     font-size: toRem(14) !important;
+// }
