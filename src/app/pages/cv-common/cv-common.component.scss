@@ -6,6 +6,10 @@
     .common-icon {
         font-size: 20px;
         color: white;
+        &.work-icon {
+            margin: 0 5px 0 0;
+            color:rgb(249, 123, 139);
+        }
         &.content-icon {
             opacity: 0.1;
             margin-right: 30px;
@@ -146,13 +150,20 @@
         &.content-work {
             flex-direction: column;
         }
+
         .about-me {
             margin-right: 20px;
         }
-        .about-me, .education, .experience{
+
+        .about-me, .education, .experience, .work-header{
             display: flex;
             flex-direction: column;
             width: 50%;
+            &.detail {
+                width: 100% !important;
+                text-align: center;
+                margin-bottom: 30px;
+            }
             .ab-title, .education-header  {
                 margin-bottom: 30px;
             }
@@ -175,7 +186,7 @@
                 display: flex;
                 justify-content: flex-end;
             }
-            .aboutme-title , .education-title{
+            .aboutme-title , .education-title, .work-title{
                 margin: 0;
                 position: relative;
                 font-size: 30px;
@@ -282,33 +293,73 @@
             }
         }
 
-        .border {
-            width: 200px;
-            border-bottom: 3px solid #474361;
-            margin: 0 auto;
-            border-radius: 50px;
-        }
-
         .works {
-            display: flex;
-            justify-content: center;
-            width: 100%;
-            margin-top: 50px;
-            img {
-                position: absolute;
+            .border {
+                width: 200px;
+                border-bottom: 3px solid #474361;
+                margin: 0 auto;
+                border-radius: 50px;
             }
-        }
-
-        .works-explain {
-            position: relative;
-            display: flex;
-            width: 100%;
-            justify-content: center;
-            align-items: center;
-            p {
-                margin: 0;
+    
+            .map {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                margin-top: 50px;
+                img {
+                    position: absolute;
+                }
+            }
+    
+            .works-explain {
+                position: relative;
+                display: flex;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+                p {
+                    margin: 0;
+                    color: white;
+                    opacity: 0.7;
+                }
+            }
+    
+            .works-description {
+                display: flex;
+                gap: 20px;
+                position: relative;
+                justify-content: center;
+                align-items: center;
+                padding: 50px 0;
+                width: 100% !important;
+            }
+    
+            //for a href in project
+            .href-works {
+                transition: .2s;
+                text-decoration: none;
                 color: white;
-                opacity: 0.7;
+                font-weight: 700;
+                font-size: 23px; 
+                &.link {
+                    font-size: 16px !important;
+                    background: #FF4C60;
+                    border: 1px solid #FF4C60;
+                    border-radius: 30px;
+                    padding: 12px 32px;
+                    font-weight: 700;
+                    transition: all 0.2s;
+                }
+            }
+            .href-works:hover {
+                color: #C7C7CF;
+            }
+
+            .section-link {
+                position: relative;
+                display: flex;
+                width: 100%;
+                justify-content: center;
             }
         }
     }

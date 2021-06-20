@@ -1,18 +1,23 @@
 [
     {
         "id": 1,
-        "projectname": "tumblrApp"
+        "projectname": "tumblrApp",
+        "url": "https://github.com/selinoykunergiz/tumblr"
     },
     {
         "id": 2,
-        "projectname": "postsTodosApp"
+        "projectname": "postsTodosApp",
+        "url": "https://github.com/selinoykunergiz/postsTodosApp"
     },
     {
         "id": 3,
-        "projectname": "todoApp"
+        "projectname": "todoApp",
+        "url": "https://github.com/selinoykunergiz/todoApp"
     },
     {
         "id": 4,
-        "projectname": "reactApp"
+        "projectname": "moviesSeriesApp",
+        "url": "https://github.com/selinoykunergiz/moviesSeriesApp"
     }
 ]
+

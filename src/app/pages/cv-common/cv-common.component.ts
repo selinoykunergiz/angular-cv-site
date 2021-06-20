@@ -1,7 +1,7 @@
 import { Component, OnInit} from '@angular/core';
 import { faMarkdown } from '@fortawesome/free-brands-svg-icons';
-import { faArrowAltCircleDown, faStar } from '@fortawesome/free-regular-svg-icons';
-import { faHome, faUniversity } from '@fortawesome/free-solid-svg-icons';              
+import { faStar } from '@fortawesome/free-regular-svg-icons';
+import { faCheck, faHome, faUniversity } from '@fortawesome/free-solid-svg-icons';              
 import data from '../../../assets/json/data.json';
 import works from '../../../assets/json/works.json';
 
@@ -19,6 +19,7 @@ export class CvCommonComponent implements OnInit {
   faUniversity = faUniversity;
   faStar = faStar;
   faMarkdown = faMarkdown;
+  faCheck = faCheck;
   
   constructor() { }
 

@@ -77,7 +77,7 @@
         <div class="experience">
             <div class="exp-header">
                 <img class="aboutme-img" src="assets/img/content/dots-bg-light.svg" alt="content" />
-                <h2 class="aboutme-title">Experiences</h2>
+                <h2 class="work-title">Experiences</h2>
             </div>
             <div class="exp-all">
                 <div class="exp-content">
@@ -100,13 +100,29 @@
     </div>
 
     <div class="content content-work">
-        <div class="border">
-        </div>
         <div class="works">
-            <img src="../../../assets/img/content/map-light.png" alt="map">
-        </div>
-        <div class="works-explain">
-            <fa-icon class="common-icon content-icon ic-work" [icon]="faStar"></fa-icon><p>I add the projects I have done in parallel to improve myself in Github. To someone you can reach just enough to click!</p>
+            <div class="work-header detail">
+                <h2 class="work-title">Works</h2>
+            </div>
+         
+            <div class="border">
+            </div>
+            <div class="map">
+                <img src="../../../assets/img/content/map-light.png" alt="map">
+            </div>
+            <div class="works-explain">
+                <fa-icon class="common-icon content-icon ic-work" [icon]="faStar"></fa-icon><p>I add the projects I have done in parallel to improve myself in Github. To someone you can reach just enough to click!</p>
+            </div>
+            <div class="works-description">
+                <div class="list" *ngFor="let works of worksList">
+                    <a class="href-works" href="{{works.url}}" target="_blank">
+                        <fa-icon class="common-icon work-icon" [icon]="faCheck"></fa-icon>{{works.projectname}}
+                    </a>
+                </div>
+            </div>
+            <div class="section-link">
+                <a class="href-works link" href="https://github.com/selinoykunergiz?tab=repositories" target="_blank">View Other Works</a>
+            </div>
         </div>
     </div>
 </div>
