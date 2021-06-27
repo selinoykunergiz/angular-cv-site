@@ -213,6 +213,7 @@
                     display: flex;
                     flex-direction: column;
                     flex: 1;
+                    height: 90px;
                     .paragraph {
                         margin: 0;
                         color: white;
@@ -238,10 +239,6 @@
             .exp-all {
                 width: 100% !important;
                 display: flex;
-                &.abilities-all {
-                    width: 80% !important;
-                    margin: 0 auto;
-                }
                 .exp-content {
                     width: 100% !important;
                     display: flex;
@@ -258,6 +255,7 @@
                         -o-transform: rotate(-8deg);
                         -ms-transform: rotate(-8deg);
                         transform: rotate(-8deg);
+                        border-radius: 20px;
                     }
                     .section-experience , .section-abilities{
                         border-radius: 20px;
