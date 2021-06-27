@@ -238,6 +238,10 @@
             .exp-all {
                 width: 100% !important;
                 display: flex;
+                &.abilities-all {
+                    width: 80% !important;
+                    margin: 0 auto;
+                }
                 .exp-content {
                     width: 100% !important;
                     display: flex;
@@ -245,10 +249,6 @@
                     flex-direction: row;
                     justify-content: space-between;
                     &.abilities-content {
-                        z-index: -1;
-                        content: "";
-                        bottom: 25px;
-                        width: 50%;
                         background-color: #302f4e;
                         -webkit-box-shadow: 0 35px 20px #56556E;
                         -moz-box-shadow: 0 35px 20px #56556E;
@@ -283,7 +283,6 @@
                                     font-size: 17px;
                                     width: 80%;
                                     color: white;
-
                                 }
                                 h6 {
                                     margin: 0;
