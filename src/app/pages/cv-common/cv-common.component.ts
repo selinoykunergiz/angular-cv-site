@@ -4,6 +4,7 @@ import { faStar } from '@fortawesome/free-regular-svg-icons';
 import { faCheck, faHome, faUniversity } from '@fortawesome/free-solid-svg-icons';              
 import data from '../../../assets/json/data.json';
 import works from '../../../assets/json/works.json';
+import abilities from '../../../assets/json/abilities.json';
 
 @Component({
   selector: 'app-cv-common',
@@ -14,6 +15,7 @@ export class CvCommonComponent implements OnInit {
 
   experienceList: any;
   worksList: any;
+  abilitiesList: any;
 
   faHome = faHome;
   faUniversity = faUniversity;
@@ -30,6 +32,7 @@ export class CvCommonComponent implements OnInit {
   init() {
     this.getExperienceList();
     this.getWorkList();
+    this.getAbilitiesList();
   }
 
   getExperienceList() {
@@ -38,5 +41,9 @@ export class CvCommonComponent implements OnInit {
 
   getWorkList() {
     this.worksList = works;
+  }
+
+  getAbilitiesList() {
+    this.abilitiesList = abilities;
   }
 }

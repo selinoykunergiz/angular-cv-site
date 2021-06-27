@@ -155,7 +155,7 @@
             margin-right: 20px;
         }
 
-        .about-me, .education, .experience, .work-header{
+        .about-me, .education, .experience, .work-header, .abilities{
             display: flex;
             flex-direction: column;
             width: 50%;
@@ -230,7 +230,7 @@
             }
         }
 
-        .experience {
+        .experience , .abilities{
             width: 100% !important;
             .exp-header {
                 margin-bottom: 30px;
@@ -244,13 +244,31 @@
                     flex-wrap: wrap;
                     flex-direction: row;
                     justify-content: space-between;
-                    .section-experience {
+                    &.abilities-content {
+                        z-index: -1;
+                        content: "";
+                        bottom: 25px;
+                        width: 50%;
+                        background-color: #302f4e;
+                        -webkit-box-shadow: 0 35px 20px #56556E;
+                        -moz-box-shadow: 0 35px 20px #56556E;
+                        box-shadow: 0 35px 20px #56556E;
+                        -webkit-transform: rotate(-8deg);
+                        -moz-transform: rotate(-8deg);
+                        -o-transform: rotate(-8deg);
+                        -ms-transform: rotate(-8deg);
+                        transform: rotate(-8deg);
+                    }
+                    .section-experience , .section-abilities{
                         border-radius: 20px;
                         flex-direction: row;
                         width: 25% !important;
                         margin-bottom: 20px; 
                         padding: 24px; 
                         background-color: rgb(108, 108, 229) !important;
+                        &.diffirent {
+                            background-color: transparent !important;
+                        }
                     ul {
                         list-style: none;
                         padding: 0;
@@ -260,7 +278,7 @@
                                 display: flex;
                                 justify-content: space-between;
                                 width: 100%;
-                                .exp-title {
+                                .exp-title , .abilities-title{
                                     margin: 0;
                                     font-size: 17px;
                                     width: 80%;
@@ -294,6 +312,7 @@
         }
 
         .works {
+            margin-bottom: 50px;
             .border {
                 width: 200px;
                 border-bottom: 3px solid #474361;

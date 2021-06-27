@@ -1,0 +1,63 @@
+[
+    {
+        "id": 1,
+        "abilitiesName": "Angular 2+"
+    },
+    {
+        "id": 2,
+        "abilitiesName": "React.js"
+    },
+    {
+        "id": 3,
+        "abilitiesName": "JavaScript"
+    },
+    {
+        "id": 4,
+        "abilitiesName": "JQuery"
+    },
+    {
+        "id": 5,
+        "abilitiesName": "HTML5"
+    },
+    {
+        "id": 6,
+        "abilitiesName": "SCSS"
+    },
+    {
+        "id": 7,
+        "abilitiesName": "CSS3"
+    },
+    {
+        "id": 8,
+        "abilitiesName": "Bootstrap"
+    },
+    {
+        "id": 9,
+        "abilitiesName": "Material Design for Bootstrap(Angular)"
+    },
+    {
+        "id": 10,
+        "abilitiesName": "PrimeNG"
+    },
+    {
+        "id": 11,
+        "abilitiesName": "Responsive Web Pages"
+    },
+    {
+        "id": 12,
+        "abilitiesName": "MySQL"
+    },
+    {
+        "id": 13,
+        "abilitiesName": "MSSQL"
+    },
+    {
+        "id": 14,
+        "abilitiesName": "C#"
+    },
+    {
+        "id": 15,
+        "abilitiesName": "Java Web Applications"
+    }
+]
+
