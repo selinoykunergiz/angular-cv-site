@@ -278,6 +278,10 @@
                                 display: flex;
                                 justify-content: space-between;
                                 width: 100%;
+                                &.section-abl {
+                                    border-left: 5px solid #44D4B4;
+                                    padding-left: 2px;
+                                }
                                 .exp-title , .abilities-title{
                                     margin: 0;
                                     font-size: 17px;
