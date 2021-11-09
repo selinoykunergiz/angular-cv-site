@@ -1,9 +1,12 @@
 @import './assets/cv-style/button.scss';
 @import './assets/cv-style/variable.scss';
 
+html, body {
+    height: 100%;
+}
+
 body {
     margin: 0;
-    background: #353353;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -28,5 +31,11 @@ $sides: (
         .m-#{$size} {
             margin: $size + px !important;
         }
+    }
+}
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact; 
     }
 }

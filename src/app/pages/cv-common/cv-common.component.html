@@ -50,7 +50,7 @@
                 <div class="section-content">
                     <p class="paragraph">I'm a front-end developer in Ankara, who turns designs into a product.</p>
                     <div class="section-btn">
-                        <button class="btn btn-default">Download CV</button>
+                        <button class="btn btn-default" (click)="downloadCv()">Download CV</button>
                     </div>
                 </div>
             </div>
@@ -123,10 +123,13 @@
             <div class="section-link">
                 <a class="href-works link" href="https://github.com/selinoykunergiz?tab=repositories" target="_blank">View Other Works</a>
             </div>
+            <div class="works-explain section-link-print">
+                <p>View Other Works : https://github.com/selinoykunergiz?tab=repositories</p>
+            </div>
         </div>
     </div>
 
-    <div class="content mb-100">
+    <div class="content c-abilities mb-100">
         <div class="abilities">
             <div class="exp-header">
                 <img class="aboutme-img" src="assets/img/content/dots-bg-light.svg" alt="content" />
@@ -144,6 +147,29 @@
                         </ul>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content content-work">
+        <div class="works">
+            <div class="work-header detail">
+                <h2 class="work-title">Courses</h2>
+            </div>
+         
+            <div class="border">
+            </div>
+          
+            <div class="courses-list">
+                <div class="courses-content">
+                    <fa-icon class="common-icon content-icon ic-work" [icon]="faStar"></fa-icon>
+                    <p>2017: Bilge Adam Academy (Java & Android)</p>
+                </div>
+                <div class="courses-content">
+                    <fa-icon class="common-icon content-icon ic-work" [icon]="faStar"></fa-icon>
+                    <p>2017: ODTU English Course (Certificate Program)</p>
+                </div>  
+
             </div>
         </div>
     </div>

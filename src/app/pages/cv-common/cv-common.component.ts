@@ -46,4 +46,9 @@ export class CvCommonComponent implements OnInit {
   getAbilitiesList() {
     this.abilitiesList = abilities;
   }
+
+  downloadCv() {
+    window.print();
+  }
+
 }

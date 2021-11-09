@@ -1,6 +1,7 @@
 .all {
+    background: #353353;
     width: 100%;
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
 
     .common-icon {
@@ -37,7 +38,7 @@
                 // transform: translate3d(-27.93px, 7.38938px, 0px);
                 position: relative;
                 display: block;
-                left: -1%;
+                left: 3%;
                 top: 60px;
             }
             .other-img {
@@ -249,12 +250,12 @@
                         background-color: #302f4e;
                         -webkit-box-shadow: 0 35px 20px #56556E;
                         -moz-box-shadow: 0 35px 20px #56556E;
-                        box-shadow: 0 35px 20px #56556E;
-                        -webkit-transform: rotate(-8deg);
-                        -moz-transform: rotate(-8deg);
-                        -o-transform: rotate(-8deg);
-                        -ms-transform: rotate(-8deg);
-                        transform: rotate(-8deg);
+                        box-shadow: 0 15px 20px #56556E;
+                        -webkit-transform: rotate(-3deg);
+                        -moz-transform: rotate(-3deg);
+                        -o-transform: rotate(-3deg);
+                        -ms-transform: rotate(-3deg);
+                        transform: rotate(-3deg);
                         border-radius: 20px;
                     }
                     .section-experience , .section-abilities{
@@ -314,6 +315,23 @@
 
         .works {
             margin-bottom: 50px;
+            .courses-list {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .courses-content {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 10px;
+                    p {
+                        margin: 0;
+                        color: white;
+                        opacity: 0.7;
+                    }
+                }
+            }
+
             .border {
                 width: 200px;
                 border-bottom: 3px solid #474361;
@@ -381,7 +399,51 @@
                 width: 100%;
                 justify-content: center;
             }
+            .section-link-print {
+                display: none;
+            }
         }
     }
 }
 
+
+
+  @media print {
+    .all {
+        padding: 20px;
+    }
+    .btn-default , .section-link{
+        display: none !important;
+    }
+    .section-link-print {
+        display: block !important;
+        text-align: center;
+    }
+    .content-work {
+        margin-bottom: 5px !important;
+    }
+    .abilities-content{
+        width: 70% !important;
+    }
+    .content {
+        max-width: 90% !important;
+        margin-left: 20px !important;
+        margin-bottom: 0 !important;
+        &.c-abilities {
+            margin-bottom: 100px !important;
+        }
+    }
+
+    .href-works {
+        font-size: 20px !important;
+    }
+
+    .aboutme-img {
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .aboutme-title {
+        font-size: 27px !important;
+    }
+  }
