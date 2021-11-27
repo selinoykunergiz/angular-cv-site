@@ -5,6 +5,7 @@ import { faCheck, faHome, faUniversity } from '@fortawesome/free-solid-svg-icons
 import data from '../../../assets/json/data.json';
 import works from '../../../assets/json/works.json';
 import abilities from '../../../assets/json/abilities.json';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-cv-common',
@@ -23,7 +24,19 @@ export class CvCommonComponent implements OnInit {
   faMarkdown = faMarkdown;
   faCheck = faCheck;
   
-  constructor() { }
+  param = {value: 'world'};
+
+  translate;
+  constructor(translate: TranslateService) {
+    this.translate = translate;
+    translate.addLangs(['en', 'tr']);
+      translate.setDefaultLang('en');
+      translate.use('en');
+      const browserLang = translate.getBrowserLang();
+      translate.use(browserLang.match(/en|tr/) ? browserLang : 'en');
+  }
+
+
 
   ngOnInit(): void {
     this.init();

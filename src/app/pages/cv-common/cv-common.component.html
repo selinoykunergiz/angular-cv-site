@@ -1,3 +1,7 @@
+<h2>{{ 'HOME.TITLE' | translate }}</h2>
+<select #langSelect (change)="translate.use(langSelect.value)">
+    <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
+  </select>
 <div class="all module">
     <div class="header">
         <div class="parallax">
@@ -104,14 +108,16 @@
             <div class="work-header detail">
                 <h2 class="work-title">Works</h2>
             </div>
-         
+
             <div class="border">
             </div>
             <div class="map">
                 <img src="../../../assets/img/content/map-light.png" alt="map">
             </div>
             <div class="works-explain">
-                <fa-icon class="common-icon content-icon ic-work" [icon]="faStar"></fa-icon><p>I add the projects I have done in parallel to improve myself in Github. To someone you can reach just enough to click!</p>
+                <fa-icon class="common-icon content-icon ic-work" [icon]="faStar"></fa-icon>
+                <p>I add the projects I have done in parallel to improve myself in Github. To someone you can reach just
+                    enough to click!</p>
             </div>
             <div class="works-description">
                 <div class="list" *ngFor="let works of worksList">
@@ -121,7 +127,8 @@
                 </div>
             </div>
             <div class="section-link">
-                <a class="href-works link" href="https://github.com/selinoykunergiz?tab=repositories" target="_blank">View Other Works</a>
+                <a class="href-works link" href="https://github.com/selinoykunergiz?tab=repositories"
+                    target="_blank">View Other Works</a>
             </div>
             <div class="works-explain section-link-print">
                 <p>View Other Works : https://github.com/selinoykunergiz?tab=repositories</p>
@@ -156,10 +163,10 @@
             <div class="work-header detail">
                 <h2 class="work-title">Courses</h2>
             </div>
-         
+
             <div class="border">
             </div>
-          
+
             <div class="courses-list">
                 <div class="courses-content">
                     <fa-icon class="common-icon content-icon ic-work" [icon]="faStar"></fa-icon>
@@ -168,7 +175,7 @@
                 <div class="courses-content">
                     <fa-icon class="common-icon content-icon ic-work" [icon]="faStar"></fa-icon>
                     <p>2017: ODTU English Course (Certificate Program)</p>
-                </div>  
+                </div>
 
             </div>
         </div>
