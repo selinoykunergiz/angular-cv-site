@@ -1,7 +1,8 @@
-<h2>{{ 'HOME.TITLE' | translate }}</h2>
+<!-- <h2>{{ 'HOME.TITLE' | translate }}</h2> -->
 <select #langSelect (change)="translate.use(langSelect.value)">
-    <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
-  </select>
+    <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang
+        }}</option>
+</select>
 <div class="all module">
     <div class="header">
         <div class="parallax">
@@ -23,8 +24,8 @@
                     <img src="assets/img/me.png" alt="me" />
                 </div>
                 <div class="section-name">
-                    <h1>Selin Oyku<span>.</span></h1>
-                    <p>I'm a Front-end Developer</p>
+                    <h1>{{ 'GENERAL_INFORMATION.NAME' | translate }}<span>.</span></h1>
+                    <p>{{ 'GENERAL_INFORMATION.PARAGRAPH' | translate }}</p>
                 </div>
                 <div class="icon-list">
                     <a href="https://github.com/selinoykunergiz/" target="_blank">
@@ -45,16 +46,16 @@
         <div class="about-me">
             <div class="ab-title">
                 <img class="aboutme-img" src="assets/img/content/dots-bg-light.svg" alt="content" />
-                <h2 class="aboutme-title">About Me</h2>
+                <h2 class="aboutme-title">{{ 'ABOUTME.TITLE' | translate }}</h2>
             </div>
             <div class="content-detail">
                 <div class="icon">
                     <fa-icon class="common-icon content-icon" [icon]="faHome"></fa-icon>
                 </div>
                 <div class="section-content">
-                    <p class="paragraph">I'm a front-end developer in Ankara, who turns designs into a product.</p>
+                    <p class="paragraph">{{ 'ABOUTME.PARAGRAPH' | translate }}</p>
                     <div class="section-btn">
-                        <button class="btn btn-default" (click)="downloadCv()">Download CV</button>
+                        <button class="btn btn-default" (click)="downloadCv()">{{ 'ABOUTME.CV' | translate }}</button>
                     </div>
                 </div>
             </div>
@@ -63,7 +64,7 @@
         <div class="education">
             <div class="education-header">
                 <img class="education-img" src="assets/img/content/dots-bg-light.svg" alt="content" />
-                <h2 class="education-title">Education</h2>
+                <h2 class="education-title">{{ 'EDUCATION.TITLE' | translate }}</h2>
             </div>
             <div class="content-detail">
                 <div class="icon">
@@ -71,7 +72,7 @@
                 </div>
                 <div class="section-content">
                     <p class="paragraph university-year">2012 - 2017</p>
-                    <p class="paragraph">Başkent University - Management Information Systems</p>
+                    <p class="paragraph">{{ 'EDUCATION.PARAGRAPH' | translate }}</p>
                 </div>
             </div>
         </div>
@@ -81,7 +82,7 @@
         <div class="experience">
             <div class="exp-header">
                 <img class="aboutme-img" src="assets/img/content/dots-bg-light.svg" alt="content" />
-                <h2 class="work-title">Experiences</h2>
+                <h2 class="work-title">{{ 'EXPERIENCE' | translate }}</h2>
             </div>
             <div class="exp-all">
                 <div class="exp-content">
@@ -106,7 +107,7 @@
     <div class="content content-work">
         <div class="works">
             <div class="work-header detail">
-                <h2 class="work-title">Works</h2>
+                <h2 class="work-title">{{ 'WORKS' | translate }}</h2>
             </div>
 
             <div class="border">
@@ -116,8 +117,7 @@
             </div>
             <div class="works-explain">
                 <fa-icon class="common-icon content-icon ic-work" [icon]="faStar"></fa-icon>
-                <p>I add the projects I have done in parallel to improve myself in Github. To someone you can reach just
-                    enough to click!</p>
+                <p>{{ 'WORKS_EXPERIENCE' | translate }}</p>
             </div>
             <div class="works-description">
                 <div class="list" *ngFor="let works of worksList">
@@ -128,10 +128,10 @@
             </div>
             <div class="section-link">
                 <a class="href-works link" href="https://github.com/selinoykunergiz?tab=repositories"
-                    target="_blank">View Other Works</a>
+                    target="_blank">{{ 'WORKS_DETAIL' | translate }}</a>
             </div>
             <div class="works-explain section-link-print">
-                <p>View Other Works : https://github.com/selinoykunergiz?tab=repositories</p>
+                <p>{{ 'WORKS_DETAIL' | translate }} : https://github.com/selinoykunergiz?tab=repositories</p>
             </div>
         </div>
     </div>
@@ -140,7 +140,7 @@
         <div class="abilities">
             <div class="exp-header">
                 <img class="aboutme-img" src="assets/img/content/dots-bg-light.svg" alt="content" />
-                <h2 class="work-title">Abilities</h2>
+                <h2 class="work-title">{{ 'ABILITIES' | translate }}</h2>
             </div>
             <div class="exp-all abilities-all">
                 <div class="exp-content abilities-content">
@@ -161,7 +161,7 @@
     <div class="content content-work">
         <div class="works">
             <div class="work-header detail">
-                <h2 class="work-title">Courses</h2>
+                <h2 class="work-title">{{ 'COURSES.TITLE' | translate }}</h2>
             </div>
 
             <div class="border">
@@ -170,11 +170,11 @@
             <div class="courses-list">
                 <div class="courses-content">
                     <fa-icon class="common-icon content-icon ic-work" [icon]="faStar"></fa-icon>
-                    <p>2017: Bilge Adam Academy (Java & Android)</p>
+                    <p>2017: {{ 'COURSES.JAVA' | translate }}</p>
                 </div>
                 <div class="courses-content">
                     <fa-icon class="common-icon content-icon ic-work" [icon]="faStar"></fa-icon>
-                    <p>2017: ODTU English Course (Certificate Program)</p>
+                    <p>2017: {{ 'COURSES.ODTU' | translate }}</p>
                 </div>
 
             </div>

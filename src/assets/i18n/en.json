@@ -1,6 +1,25 @@
 {
-    "HOME": {
-      "TITLE": "Hello Angular with ngx-translate!",
-      "SELECT": "Change language"
-    }
+  "GENERAL_INFORMATION": {
+    "NAME": "Selin Oyku",
+    "PARAGRAPH": "I'm a Front-end Developer"
+  },
+  "ABOUTME": {
+    "TITLE": "About Me",
+    "PARAGRAPH": "I'm a front-end developer in Ankara, who turns designs into a product.",
+    "CV": "Download CV"
+  },
+  "EDUCATION": {
+    "TITLE": "Education",
+    "PARAGRAPH": "Başkent University - Management Information Systems"
+  },
+  "EXPERIENCE": "Experiences",
+  "WORKS": "Works",
+  "WORKS_DETAIL": "View Other Works",
+  "WORKS_EXPERIENCE": "I add the projects I have done in parallel to improve myself in Github. To someone you can reach just enough to click!",
+  "ABILITIES": "Abilities",
+  "COURSES": {
+    "TITLE": "Courses",
+    "JAVA": "Bilge Adam Academy (Java & Android)",
+    "ODTU": "ODTU English Course (Certificate Program)"
   }
+}

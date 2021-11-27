@@ -1,6 +1,25 @@
 {
-    "HOME": {
-      "TITLE": "oooo öykü",
-      "SELECT": "hadi inş"
-    }
+  "GENERAL_INFORMATION": {
+    "NAME": "Selin Öykü",
+    "PARAGRAPH": "Arayüz geliştiricisiyim"
+  },
+  "ABOUTME": {
+    "TITLE": "Hakkımda",
+    "PARAGRAPH": "Ankara'da front-end developer olarak çalışıyorum, UI-UX ile çıkan tasarımları ürüne dönüştürüyorum.",
+    "CV": "CV İndir"
+  },
+  "EDUCATION": {
+    "TITLE": "Eğitim",
+    "PARAGRAPH": "Başkent Üniversitesi - Yönetim Bilişim Sistemleri"
+  },
+  "EXPERIENCE": "İş Hayatım",
+  "WORKS": "Projelerim",
+  "WORKS_DETAIL": "Diğer Çalışmaları Görüntüle",
+  "WORKS_EXPERIENCE": "Github'da kendimi geliştirmek adına paralel olarak yaptığım projeleri ekliyorum. Erişim sağlamak için birine tıklamanız yeterli!",
+  "ABILITIES": "Yeteneklerim",
+  "COURSES": {
+    "TITLE": "Kurslar",
+    "JAVA": "Bilge Adam Akademi (Java & Android)",
+    "ODTU": "ODTU İngilizce Kursu (Sertifika Programı)"
   }
+}
