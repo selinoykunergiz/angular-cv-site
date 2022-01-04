@@ -29,7 +29,7 @@ export class CvCommonComponent implements OnInit {
   translate;
   constructor(translate: TranslateService) {
     this.translate = translate;
-    translate.addLangs(['en', 'tr']);
+      translate.addLangs(['en', 'tr']);
       translate.setDefaultLang('en');
       translate.use('en');
       const browserLang = translate.getBrowserLang();

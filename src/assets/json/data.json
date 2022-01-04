@@ -1,50 +1,50 @@
 [
     {
         "id": 1,
-        "companyname": "Sebit Education and Information Technologies Inc.",
-        "description": "I take part in more than one project as a front-end developer. My goal is to create user friendly screens. I develop projects using Angular 11, Sass and HTML5 technologies.",
+        "companyname": "SEBIT",
+        "description": "SEBIT_DESCRIPTION",
         "startdate": "",
         "finishdate": "",
-        "totaltime": "Now"
+        "totaltime": "SEBIT_TOTALTIME"
     },
     {
         "id": 2,
-        "companyname": "Duygu Aviation Defense Industry Inc.",
-        "description": "I took part in large-scale projects, developed screens with thousands of records to be kept and these thousands of records to meet with users. I have developed web applications using the Angular framework in multiple projects.",
+        "companyname": "DUYGU",
+        "description": "DUYGU_DESCRIPTION",
         "startdate": "04.2020",
         "finishdate": "04.2021",
-        "totaltime": "1 yr"
+        "totaltime": "DUYGU_TOTALTIME"
     },
     {
         "id": 3,
-        "companyname": "Altay Software Defense Industry and Trade Inc.",
-        "description": "More than one developer at the company I entered in 2018. I took part in the POLUT project as a front-end developer for the aviation department. Then I worked as a front-end developer in a big project called fuzulEv. I have developed projects using Angular 7 and Angular 8 frameworks, besides, I have prepared user-friendly screens using Material Design for Bootstrap and PrimeNG.",
+        "companyname": "ALTAY",
+        "description": "ALTAY_DESCRIPTION",
         "startdate": "06.2018",
         "finishdate": "04.2020",
-        "totaltime": "1 yr 10 month"
+        "totaltime": "ALTAY_TOTALTIME"
     },
     {
         "id": 4,
-        "companyname": "JotForm - Intern",
-        "description": "I made projects with the basics of the web world, HTML, CSS and JavaScript. I learned the coding processes of PSD designs given to me.",
+        "companyname": "JOTFORM",
+        "description": "JOTFORM_DESCRIPTION",
         "startdate": "02.2017",
         "finishdate": "06.2017",
-        "totaltime": "4 month"
+        "totaltime": "JOTFORM_TOTALTIME"
     },
     {
         "id": 5,
-        "companyname": "T.C Prime Ministry Undersecretariat of Treasury - Intern",
-        "description": "Development on mysql database side.",
+        "companyname": "HAZINE",
+        "description": "HAZINE_DESCRIPTION",
         "startdate": "07.2016",
         "finishdate": "09.2016",
-        "totaltime": "2 month"
+        "totaltime": "HAZINE_TOTALTIME"
     },
     {
         "id": 6,
-        "companyname": "Civil Aviation General Directorate - Intern",
-        "description": "Worked on c# and database side.",
+        "companyname": "SIVIL",
+        "description": "SIVIL_DESCRIPTION",
         "startdate": "08.2015",
         "finishdate": "10.2015",
-        "totaltime": "2 month"
+        "totaltime": "SIVIL_TOTALTIME"
     }
 ]

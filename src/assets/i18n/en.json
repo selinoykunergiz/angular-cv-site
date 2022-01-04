@@ -21,5 +21,23 @@
     "TITLE": "Courses",
     "JAVA": "Bilge Adam Academy (Java & Android)",
     "ODTU": "ODTU English Course (Certificate Program)"
-  }
+  },
+  "SEBIT": "Sebit Education and Information Technologies Inc.",
+  "SEBIT_DESCRIPTION": "I take part in more than one project as a front-end developer. My goal is to create user friendly screens. I develop projects using Angular 13, Sass and HTML5 technologies.",
+  "SEBIT_TOTALTIME": "Now",
+  "DUYGU": "Duygu Aviation Defense Industry Inc.",
+  "DUYGU_DESCRIPTION": "I took part in large-scale projects, developed screens with thousands of records to be kept and these thousands of records to meet with users. I have developed web applications using the Angular framework in multiple projects.",
+  "DUYGU_TOTALTIME" : "1 yr",
+  "ALTAY": "Altay Software Defense Industry and Trade Inc.",
+  "ALTAY_DESCRIPTION": "More than one developer at the company I entered in 2018. I took part in the POLUT project as a front-end developer for the aviation department. Then I worked as a front-end developer in a big project called fuzulEv. I have developed projects using Angular 7 and Angular 8 frameworks, besides, I have prepared user-friendly screens using Material Design for Bootstrap and PrimeNG.",
+  "ALTAY_TOTALTIME": "1 yr 10 month",
+  "JOTFORM": "JotForm - Intern",
+  "JOTFORM_DESCRIPTION": "I made projects with the basics of the web world, HTML, CSS and JavaScript. I learned the coding processes of PSD designs given to me.",
+  "JOTFORM_TOTALTIME": "4 month",
+  "HAZINE": "T.C Prime Ministry Undersecretariat of Treasury - Intern",
+  "HAZINE_DESCRIPTION": "Development on mysql database side.",
+  "HAZINE_TOTALTIME": "2 month",
+  "SIVIL": "Civil Aviation General Directorate - Volunteer Intern",
+  "SIVIL_DESCRIPTION": "Worked on c# and database side.",
+  "SIVIL_TOTALTIME": "2 month"
 }

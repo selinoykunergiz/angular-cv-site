@@ -21,5 +21,25 @@
     "TITLE": "Kurslar",
     "JAVA": "Bilge Adam Akademi (Java & Android)",
     "ODTU": "ODTU İngilizce Kursu (Sertifika Programı)"
-  }
+  },
+  "SEBIT": "Sebit Eğitim ve Bilişim Teknolojileri A.Ş.",
+  "SEBIT_DESCRIPTION": "Front-end Developer olarak birden fazla projede yer alıyorum. Amacım kullanıcı dostu ekranlar oluşturmak. Angular 13, Sass ve HTML5 teknolojilerini kullanarak projeler geliştiriyorum.",
+  "SEBIT_TOTALTIME": "Şu an",
+  "DUYGU": "Duygu Havacılık Savunma Sanayi A.Ş.",
+  "DUYGU_DESCRIPTION": "Büyük çaplı projelerde yer aldım, tutulacak binlerce kayıt ve bu binlerce kayıt ile kullanıcılarla buluşacak ekranlar geliştirdim. Birden fazla projede Angular 10 kullanarak web uygulamaları geliştirdim.",
+  "DUYGU_TOTALTIME" : "1 yıl",
+  "ALTAY": "Altay Yazılım Savunma Sanayi ve Ticaret A.Ş.",
+  "ALTAY_DESCRIPTION": "2018 yılında girdiğim şirkette birden fazla projede yer aldım. Havacılık Daire Başkanlığı için geliştirilen projede front-end developer olarak yer aldım. Daha sonra fuzulEv adında büyük bir projede front-end geliştirici olarak çalıştım. Angular 7 ve Angular 8 frameworklerini kullanarak projeler geliştirdim ayrıca Bootstrap ve PrimeNG için Material Design kullanarak kullanıcı dostu ekranlar hazırladım.",
+  "ALTAY_TOTALTIME": "1 yıl 10 ay",
+  "JOTFORM": "JotForm - Stajyer",
+  "JOTFORM_DESCRIPTION": "Web dünyasının temelleri, HTML, CSS ve JavaScript ile projeler yaptım. Bana verilen PSD tasarımlarının kodlama işlemlerini öğrendim.",
+  "JOTFORM_TOTALTIME": "4 ay",
+  "HAZINE": "T.C Başbakanlık Hazine Müsteşarlığı - Stajyer",
+  "HAZINE_DESCRIPTION": "MySQL veritabanı üzerinde çalışmalar yaptım.",
+  "HAZINE_TOTALTIME": "2 ay",
+  "SIVIL": "Sivil Havacılık Genel Müdürlüğü - Gönüllü Stajyer",
+  "SIVIL_DESCRIPTION": "Temel C# ve veritabanı tarafında çalışmalar yaptım.",
+  "SIVIL_TOTALTIME": "2 ay"
+
+
 }
