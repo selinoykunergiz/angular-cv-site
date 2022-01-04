@@ -114,12 +114,17 @@
                         display: flex;
                         flex-direction: row !important;
                         transform: rotate(0deg) !important;
+                        padding: 10px;
                     }
                     .section-experience , .section-abilities{
                         max-width: 100% !important;
                         width: 90% !important;
                         padding: 10px !important;
                         margin: 0 auto;
+                        &.different {
+                            width: 44% !important;
+                            margin: 0 !important;
+                        }
                     }
                 }
             }
