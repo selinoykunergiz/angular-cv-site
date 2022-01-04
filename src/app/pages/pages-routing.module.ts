@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
-import { CvCommonComponent } from './_index';
+import { CvCommonComponent, HomeComponent } from './_index';
 
 const routes: Routes = [
-  { path: '' , component: CvCommonComponent}
+  { path: '' , component: HomeComponent},
+  { path: 'cv' , component: CvCommonComponent}
 ];
 
 @NgModule({

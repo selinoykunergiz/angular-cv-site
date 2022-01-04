@@ -1,0 +1,63 @@
+.home-page {
+    margin-top: 10%;
+    .home-page-content {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+        .all-section {
+            width: 450px;
+            .common {
+                margin-bottom: 15%;
+                h3 {
+                    font-weight: 100;
+                    letter-spacing: 5px;
+                    font-size: 11px;
+                }
+            }
+            .information {
+                h1 {
+                    margin: 0 0 10px 0;
+                    font-weight: 100;
+                    letter-spacing: 5px;
+                    font-size: 18px;
+                }
+                p {
+                    font-size: 26px;
+                    font-weight: 200;
+                    line-height: 37px;
+                }
+            }
+            .contact {
+                p {
+                    line-height: 24px;
+                    a{
+                        color: black;
+                        transition: .2s;
+                        text-decoration: none;
+                        font-size: 18px;
+                        line-height: 24px;
+                        &:hover {
+                            color: red;
+                        }
+                    }
+                }
+            }
+
+            p {
+                margin: 0;
+            }
+
+            .contact, .keywords, .work, .description {
+                p {
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+            }
+
+            .work, .description  {
+                p {
+                    line-height: 26px;
+                }
+            }
+    }
+}
