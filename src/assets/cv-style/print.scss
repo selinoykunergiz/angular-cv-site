@@ -1,0 +1,44 @@
+@media print {
+    .all {
+        padding: 20px;
+    }
+
+    .btn-default , .section-link, .language{
+        display: none !important;
+    }
+
+    .section-link-print {
+        display: block !important;
+        text-align: center;
+    }
+
+    .content-work {
+        margin-bottom: 5px !important;
+    }
+
+    .abilities-content{
+        width: 70% !important;
+    }
+    
+    .content {
+        max-width: 90% !important;
+        margin-left: 20px !important;
+        margin-bottom: 0 !important;
+        &.c-abilities {
+            margin-bottom: 100px !important;
+        }
+    }
+
+    .href-works {
+        font-size: 20px !important;
+    }
+
+    .aboutme-img {
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .aboutme-title {
+        font-size: 27px !important;
+    }
+}

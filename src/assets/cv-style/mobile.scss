@@ -1,0 +1,149 @@
+@import "variable";
+
+@media #{$mobile} {
+    .all {
+        .language {
+            select {
+               width: 50px !important;
+            }
+        }
+
+        .header {
+            margin-bottom: 0 !important;
+            .parallax {
+                height: 60vh !important;
+                min-height: 75vh !important;
+                .header5{
+                    left: 26% !important; 
+                    top: 5% !important;
+                }
+                .header9 {
+                    right: 19% !important; 
+                    top: 8% !important; 
+                }
+                .header7 {
+                    top: 22% !important;
+                    right: -4% !important;
+                }
+                .header1 {
+                    top: 36px !important;
+                }
+                .header2 {
+                    left: 48% !important;
+                    top: 12% !important;
+                }
+                .header10 {
+                    display: none!important;
+                }
+                .header3 {
+                    left: 12% !important;
+                    top: 70% !important;
+                }
+                .header8 {
+                    left: 51% !important;
+                    bottom: 26% !important;
+                }
+                .header6 {
+                    left: 22% !important;
+                    bottom: 35% !important;
+                }
+                .header11 {
+                    bottom: 21% !important;
+                    right: -7% !important;
+                }
+                .header4 {
+                    left: 93% !important;
+                    bottom: 32% !important;
+                }
+                .general-information {
+                    height: 75% !important;
+                }
+            }
+        } 
+        
+        .content {
+            flex-direction: column !important;
+            margin-bottom: 0 !important;
+
+            .map {
+                margin-top: 20px !important;
+            }
+            .content-detail {
+                width: 95% !important;
+                margin: 0 auto;
+                .btn-default {
+                    padding: 8px 24px !important;
+                    font-size: 12px !important;
+                }
+            }
+
+            .paragraph {
+                font-size: 14px !important;
+                &.university-year {
+                    font-size: 18px !important;
+                }
+            }
+
+            .aboutme-title, .education-title, .work-title {
+                font-size: 23px !important;
+            }
+
+            .about-me {
+                width: 100% !important;
+                margin-bottom: 15% !important;
+               
+            }
+
+            .education-header {
+                justify-content: flex-start !important;
+            }
+
+            .education {
+                width: 100% !important;
+                margin-bottom: 15% !important;
+                .education-title {
+                    display: flex;
+                    justify-content: flex-start !important;
+                }
+            }
+
+            .exp-all {
+                .exp-content {
+                    flex-direction: column !important;
+                    &.abilities-content {
+                        display: flex;
+                        flex-direction: row !important;
+                        transform: rotate(0deg) !important;
+                    }
+                    .section-experience , .section-abilities{
+                        max-width: 100% !important;
+                        width: 90% !important;
+                        padding: 10px !important;
+                        margin: 0 auto;
+                    }
+                }
+            }
+
+            .works-description {
+                flex-direction: column !important;
+                padding: 15px 0 !important;
+            }
+            
+            .href-works {
+                font-size: 15px !important;
+                &.link {
+                    padding: 8px 24px !important;
+                }
+            }
+
+            .common-icon {
+                font-size: 13px !important;
+            }
+
+            .courses-content {
+                font-size: 14px !important;
+            }
+        }
+    }
+}
+
