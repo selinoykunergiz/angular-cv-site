@@ -1,10 +1,38 @@
 .home-page {
-    margin-top: 10%;
+    margin-top: 5%;
+    &.dark {
+        h1, h3, p {
+            color: black;
+        }
+        a {
+            color: black;
+        }
+    }
+    &.light {
+        h1, h3, p {
+            color: white;
+        }
+        a {
+            color: white;
+        }
+    }
     .home-page-content {
         max-width: 1200px;
         margin: 0 auto;
-    }
-        .all-section {
+        padding-bottom: 40px;
+         .change-background {
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 5%;
+            button {
+                background: transparent;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                color: #ccc;
+                padding: 3px 10px;
+            }
+         }
+         .all-section {
             width: 450px;
             .common {
                 margin-bottom: 15%;
@@ -31,7 +59,6 @@
                 p {
                     line-height: 24px;
                     a{
-                        color: black;
                         transition: .2s;
                         text-decoration: none;
                         font-size: 18px;
@@ -59,5 +86,8 @@
                     line-height: 26px;
                 }
             }
+        }
     }
+       
 }
+

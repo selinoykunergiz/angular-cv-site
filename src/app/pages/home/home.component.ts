@@ -7,9 +7,27 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  colorName: string;
+
+  constructor() {
+    this.colorName = 'Dark Theme';
+   }
 
   ngOnInit(): void {
   }
 
+  changeBg() {
+    if (document.body.style.backgroundColor == "white") {
+      document.body.style.backgroundColor = "black";
+      this.colorName = 'Light Theme';
+    } 
+    else if(document.body.style.backgroundColor == "black") {
+      document.body.style.backgroundColor = "white";
+      this.colorName = 'Dark Theme';
+    }
+    else {
+      document.body.style.backgroundColor = "black";
+      this.colorName = 'Light Theme';
+    }
+  }
 }

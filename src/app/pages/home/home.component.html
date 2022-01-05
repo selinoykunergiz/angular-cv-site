@@ -1,5 +1,10 @@
-<div class="home-page">
+<div class="home-page" [ngClass]="colorName === 'Dark Theme' ? 'dark' : 'light'">
     <div class="home-page-content">
+        <div class="change-background">
+            <button [ngClass]="colorName === 'Dark Theme' ? 'dark' : 'light'" (click)="changeBg()">
+                {{colorName}}
+            </button>
+        </div>
         <div class="all-section">
             <div class="information common">
                 <h1>SELIN OYKU NERGIZ</h1>
