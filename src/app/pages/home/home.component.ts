@@ -17,17 +17,13 @@ export class HomeComponent implements OnInit {
   }
 
   changeBg() {
-    if (document.body.style.backgroundColor == "white") {
+    if (document.body.style.backgroundColor == "white" || document.body.style.backgroundColor == "") {
       document.body.style.backgroundColor = "black";
       this.colorName = 'Light Theme';
     } 
-    else if(document.body.style.backgroundColor == "black") {
+    else {
       document.body.style.backgroundColor = "white";
       this.colorName = 'Dark Theme';
-    }
-    else {
-      document.body.style.backgroundColor = "black";
-      this.colorName = 'Light Theme';
     }
   }
 }
