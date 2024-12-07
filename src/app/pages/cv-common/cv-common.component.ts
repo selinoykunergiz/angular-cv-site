@@ -6,6 +6,7 @@ import data from '../../../assets/json/data.json';
 import works from '../../../assets/json/works.json';
 import abilities from '../../../assets/json/abilities.json';
 import { TranslateService } from '@ngx-translate/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-cv-common',
@@ -27,7 +28,7 @@ export class CvCommonComponent implements OnInit {
   param = {value: 'world'};
 
   translate;
-  constructor(translate: TranslateService) {
+  constructor(translate: TranslateService, private titleService: Title) {
     this.translate = translate;
       translate.addLangs(['en', 'tr']);
       translate.setDefaultLang('en');
@@ -43,6 +44,7 @@ export class CvCommonComponent implements OnInit {
   }
 
   init() {
+    this.titleService.setTitle('Cv - Selin Öykü Nergiz');
     this.getExperienceList();
     this.getWorkList();
     this.getAbilitiesList();
