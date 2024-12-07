@@ -107,7 +107,29 @@
         </div>
     </div>
 
-    <div class="content content-work">
+    <div class="content c-abilities mb-100">
+        <div class="abilities">
+            <div class="exp-header">
+                <img class="aboutme-img" src="assets/img/content/dots-bg-light.svg" alt="content" />
+                <h2 class="work-title">{{ 'ABILITIES' | translate }}</h2>
+            </div>
+            <div class="exp-all abilities-all">
+                <div class="exp-content abilities-content">
+                    <div class="section-content section-abilities different" *ngFor="let abilities of abilitiesList">
+                        <ul>
+                            <li>
+                                <div class="section-exp section-abl">
+                                    <h3 class="abilities-title">{{abilities.abilitiesName}}</h3>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="content content-work github">
         <div class="works">
             <div class="work-header detail">
                 <h2 class="work-title">{{ 'WORKS' | translate }}</h2>
@@ -135,28 +157,6 @@
             </div>
             <div class="works-explain section-link-print">
                 <p>{{ 'WORKS_DETAIL' | translate }} : https://github.com/selinoykunergiz?tab=repositories</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="content c-abilities mb-100">
-        <div class="abilities">
-            <div class="exp-header">
-                <img class="aboutme-img" src="assets/img/content/dots-bg-light.svg" alt="content" />
-                <h2 class="work-title">{{ 'ABILITIES' | translate }}</h2>
-            </div>
-            <div class="exp-all abilities-all">
-                <div class="exp-content abilities-content">
-                    <div class="section-content section-abilities different" *ngFor="let abilities of abilitiesList">
-                        <ul>
-                            <li>
-                                <div class="section-exp section-abl">
-                                    <h3 class="abilities-title">{{abilities.abilitiesName}}</h3>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
             </div>
         </div>
     </div>

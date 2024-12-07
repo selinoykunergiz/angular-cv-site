@@ -1,48 +1,198 @@
 @media print {
+    body {
+        background-color: white;
+        color: black;
+        font-family: Arial, sans-serif;
+    }
+
     .all {
-        padding: 20px;
+        width: 100%;
+        max-width: none; 
+        margin: 0;
+        background: transparent;
     }
 
-    .btn-default , .section-link, .language{
-        display: none !important;
+    .parallax {
+        padding: 0;
+        height: auto;
+        min-height: auto;
     }
 
-    .section-link-print {
-        display: block !important;
-        text-align: center;
+    .header img {
+        display: block; 
+    }
+
+    .general-information {
+        text-align: left;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .section-img img {
+        width: 50px; 
+        border-radius: 50%;
+        border: 1px solid #FFD15C;
+    }
+
+    .icon-list {
+        display: none; 
+    }
+
+    .language {
+        display: none;
+    }
+
+    .content {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .ab-title, .education-header, .exp-header, .work-header, .abilities {
+        margin-bottom: 20px;
+    }
+
+    .aboutme-title, .education-title, .work-title, .abilities-title {
+        font-size: 20px;
+        color: black;
+    }
+
+    .paragraph {
+        font-size: 14px;
+        color: black;
+        margin-bottom: 15px;
+    }
+
+    .exp-content, .section-content, .section-exp, .section-abl {
+        box-shadow: none;
+        background: transparent;
+        padding: 10px;
+    }
+
+    .section-btn, .btn {
+        display: none;
+    }
+
+    .works-description {
+        display: block;
+    }
+
+    .works-description .href-works {
+        font-size: 14px;
+        color: black;
+        text-decoration: none;
+        font-weight: normal;
+    }
+
+    .works-description .href-works:hover {
+        color: gray;
+    }
+
+    .section-link, .section-link-print {
+        display: none;
+    }
+
+    .exp-all, .abilities-all {
+        display: flex;
+        flex-wrap: wrap; 
+    }
+
+    .exp-content, .abilities-content {
+        margin-bottom: 20px; 
+    }   
+
+    .exp-content:nth-child(2n) {
+        margin-right: 0; 
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        margin-bottom: 5px;
+    }
+
+    .map {
+        display: none; 
     }
 
     .content-work {
-        margin-bottom: 5px !important;
+        margin-bottom: 20px;
     }
 
-    .abilities-content{
-        width: 70% !important;
+    .border {
+        display: none;
     }
-    
-    .content {
-        max-width: 90% !important;
-        margin-left: 20px !important;
+
+    .works-explain, .works-description, .work-header {
+        display: block;
+    }
+
+    .courses-list {
+        display: block;
+    }
+
+    .courses-content {
+        margin-top: 10px;
+    }
+
+    .section-link-print {
+        display: block;
+    }
+
+    .section-experience {
+        width: 100% !important;     
+    }
+
+    .abilities {
+        margin-top: 210px !important;   
+    }
+
+    .github {
+        margin-top: 200px !important; 
         margin-bottom: 0 !important;
-        &.c-abilities {
-            margin-bottom: 100px !important;
+        .works {
+            margin-bottom: 0 !important;
+            .works-explain {
+                .common-icon {
+                    margin-left: 10px !important;
+                }
+                p {
+                    margin-right: 10px !important;
+                }
+            }
+            .list {
+                a {
+                    font-size: 18px !important;
+                }
+            }
         }
+        .section-link {
+            display: none !important;
+        }
+    }   
+    .exp-content.abilities-content {
+        width: 90% !important;
     }
 
-    .href-works {
-        font-size: 20px !important;
+    .exp-all.abilities-all {
+        justify-content: center !important;
     }
 
-    .aboutme-img {
-        width: 30px !important;
-        height: 30px !important;
+    .header {
+        margin-bottom: 0 !important;  
+        padding-top: 74px !important;
     }
 
-    .aboutme-title {
-        font-size: 27px !important;
+    .language {
+        display: none !important;
     }
 
-    .experience {
-        margin-bottom: 10%;
+    .section-content.section-experience {
+        margin-bottom: 30px !important;
     }
 }
+      
